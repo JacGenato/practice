@@ -8,9 +8,8 @@ using System.Text;
 
 namespace LibraryApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class LoginController : ControllerBase
+
+    public class LoginController : BaseController
     {
         private IConfiguration _config;
 

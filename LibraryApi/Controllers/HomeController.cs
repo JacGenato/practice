@@ -5,9 +5,8 @@ using System.Security.Claims;
 
 namespace LibraryApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class HomeController : Controller
+
+    public class HomeController : BaseController
     {
         [HttpGet("Public")]
        
